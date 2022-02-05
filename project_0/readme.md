@@ -6,7 +6,7 @@
 [3. Краткая информация о данных](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%Краткая-информация-о-данных)
 [4. Этапы работы над проектом](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%Этапы-работы-над-проектом)
 [5. Результат](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%Результат)
-[6. Выводы](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%Выводы)
+[6. Выводы](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ## Описание проекта
 Угадать случайное число за минимальное количество попыток.
