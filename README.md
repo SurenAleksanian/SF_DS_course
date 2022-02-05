@@ -3,7 +3,7 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 
 ## Projects
 
-*[Project 0. Game: Guess The Number](____)
+*[Project 0. Game: Guess The Number](https://github.com/SurenAleksanian/SF_DS_course/tree/main/project_0)
 
 *[Project 1. ________](____)
 
