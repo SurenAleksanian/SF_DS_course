@@ -4,7 +4,6 @@
 
 import numpy as np
 
-
 def random_predict(number: int = 1) -> int:
     """Рандомно угадываем число
 
@@ -14,13 +13,17 @@ def random_predict(number: int = 1) -> int:
     Returns:
         int: Число попыток
     """
-    count = 0
-
+    count,min,max = 1,1,101 # задаём счётчик попыток и начальный диапазон для выбора чисел для угадывания
+    
     while True:
+        supposed_number = (min+max)/2  # предполагаемое число; здесь его не округляем, иначе при искомом числе равном 1 возникнет вечный цикл
+        if round(supposed_number)==number:
+            break
         count += 1
-        predict_number = np.random.randint(1, 101)  # предполагаемое число
-        if number == predict_number:
-            break  # выход из цикла если угадали
+        if supposed_number>number:
+            max=supposed_number
+        else:
+            min=supposed_number
     return count
 
 
@@ -41,10 +44,11 @@ def score_game(random_predict) -> int:
         count_ls.append(random_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
+    print(count_ls)
+    print(f"Ваш алгоритм угадывает число в среднем за: {score} попыток")
     return score
 
 
+#RUN
 if __name__ == "__main__":
-    # RUN
     score_game(random_predict)
