@@ -31,22 +31,32 @@
 
 **Цель**
 
-Научиться писать хороший код на Python.
+Улучшить навык написания хорошего код на Python.
 
 :arrow_up:[к оглавлению](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Краткая информация о данных
+Программа не использует внешние данные.
 
 :arrow_up:[к оглавлению](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Этапы работы над проектом
+1. Написание первоначальной редакции кода.
+2. Тестирование
+    - Обнаружен переход в вечный цикл при некоторых запусках.
+    - Диагностика. Обнаружено, что пробелема проявляется при угадывании числа 1. Выявлена причина.
+    - Исправление
+3. Подготовка readme.
+4. Публикация проекта на Github
 
 :arrow_up:[к оглавлению](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Результат
+При всех произведенных тестовых запусках, программа выдавала результат = 5 (среднее количество попыток, требуемых для поиска числа). Это лучше целевого значения (20) и близко к теоретически возможному лучшему среднему (4).
 
 :arrow_up:[к оглавлению](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Выводы
+Цель проекта достигнута - навык написания хорошего кода на Phyton улучшен.
 
 :arrow_up:[к оглавлению](https://github.com/SurenAleksanian/SF_DS_course/blob/main/project_0/readme.md#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
